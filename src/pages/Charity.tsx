@@ -1,4 +1,3 @@
-import React from "react";
 import LayoutNavbar from "../navbar/LayoutNavbar";
 import DesignElement, { IDesignElement } from "../projects/DesignElement";
 import WebDesignIdea, { ITab } from "../projects/WebDesignIdea";

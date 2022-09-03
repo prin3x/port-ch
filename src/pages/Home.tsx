@@ -1,4 +1,3 @@
-import React from "react";
 import Cover from "../cover/Cover";
 import GetInTouch from "../footer/GetInTouch";
 import LayoutNavbar from "../navbar/LayoutNavbar";

@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import LayoutNavbar from "../navbar/LayoutNavbar";
 import DesignElement, { IDesignElement } from "../projects/DesignElement";
 import ExchangeWindowSlide from "../projects/ExchangeProjects/ExchangeWindowSlide";

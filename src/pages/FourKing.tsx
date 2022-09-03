@@ -1,12 +1,10 @@
 import LayoutNavbar from "../navbar/LayoutNavbar";
 import DesignElement, { IDesignElement } from "../projects/DesignElement";
 import WebDesignIdea, { ITab } from "../projects/WebDesignIdea";
-import FirstPageImageCover from "../projects/FirstPageImageCover";
 import FirstCoverDescriptionFuture from "../projects/FutureProject/FirstCoverDescriptionFuture";
 import NextProjects, { INextProduct } from "../projects/NextProjects";
 import ProjectGoals from "../projects/ProjectGoals";
-import ProjectComps from "../projects/ProjectComps";
-import SingleCover from "../projects/SingleCover";
+import SoloFirstPageImage from "../projects/SoloFirstPageImage";
 
 type Props = {};
 
@@ -56,7 +54,7 @@ function Bingo({}: Props) {
   return (
     <LayoutNavbar>
       <div className="container  max-w-full custom-container overflow-hidden">
-        <SingleCover cover="/assets/4king-cover.png" />
+        <SoloFirstPageImage image="/assets/4king-cover.png" />
         <FirstCoverDescriptionFuture />
         <ProjectGoals />
         <DesignElement designElements={designElements} />

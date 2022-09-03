@@ -5,7 +5,6 @@ import FirstPageImageCover from "../projects/FirstPageImageCover";
 import FirstCoverDescriptionFuture from "../projects/FutureProject/FirstCoverDescriptionFuture";
 import NextProjects, { INextProduct } from "../projects/NextProjects";
 import ProjectGoals from "../projects/ProjectGoals";
-import ProjectComps from "../projects/ProjectComps";
 
 type Props = {};
 

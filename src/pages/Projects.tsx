@@ -1,4 +1,3 @@
-import React from "react";
 import LayoutNavbar from "../navbar/LayoutNavbar";
 import ProjectList from "../projects/ProjectList";
 

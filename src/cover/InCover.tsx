@@ -6,20 +6,23 @@ function InCover({}: Props) {
   return (
     <div className="flex w-full relative">
       {/* <img src="/assets/Ellipse_2.png" alt="el" className="absolute" /> */}
-      <section className="w-[50%] min-h-screen relative pb-20">
-        {/* <div className="absolute right-0 top-0 font-[16px] mt-[26px] mr-6">
-          About
-        </div> */}
-        <div className="intro-box mx-auto block max-w-[600px] mt-36">
-          <h1 className="text-[76px] font-semibold uppercase drop-shadow-md leading-[76px]">
+      <section className="w-[100%] md:w-[50%]  min-h-screen relative pb-20">
+      <img
+          src="/assets/cover-right-bg.png"
+          alt="el"
+          className="md:hidden block ml-auto"
+        />
+        <div className="intro-box mx-auto block max-w-[600px] md:mt-36 -mt-64 ">
+        <div className="md:-hidden absolute top-0 opacity-20 w-auto h-56 bg-gradient-to-b to-white"></div>
+          <h1 className="z-30 text-[32px] md:text-[76px] font-semibold uppercase drop-shadow-md leading-[32px] md:leading-[76px] text-center md:text-left">
             AMITA TOMASA
           </h1>
-          <h2 className="text-[76px] font-regular drop-shadow-md leading-[76px]">
+          <h2 className="z-30 text-[32px] md:text-[76px] font-regular drop-shadow-md  leading-[32px] md:leading-[76px] text-center md:text-left ">
             <span className="text-[#668D86]">U</span>
             X/
             <span className="text-[#668D86]">U</span>I Designer
           </h2>
-          <div className="info flex mt-5 flex-wrap">
+          <div className="info flex mt-5 flex-wrap md:p-0 p-5">
             <p>
               Email :
               <span className="text-[#8C8C8C]">amita.tomasa@gmail.com</span>
@@ -40,11 +43,11 @@ function InCover({}: Props) {
               </span>
             </p>
           </div>
-          <div className="flex  drop-shadow-md ">
+          <div className="flex  drop-shadow-md  md:p-0 p-5">
             <h3 className="text-[48px] mt-16">Works &nbsp;</h3>
           </div>
 
-          <ol className="relative border-l border-gray-200 dark:border-gray-700">
+          <ol className="relative border-l border-gray-200 dark:border-gray-700  md:p-0 p-5">
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
               <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
@@ -128,11 +131,11 @@ function InCover({}: Props) {
             </li>
           </ol>
 
-          <div className="flex  drop-shadow-md ">
+          <div className="flex  drop-shadow-md  md:p-0 p-5">
             <h3 className="text-[48px] mt-16">Skill &nbsp;</h3>
             <span className="flex-grow border-b border-black mb-8"></span>
           </div>
-          <div className="flex gap-20">
+          <div className="flex gap-20  md:p-0 p-5">
             <div className="skill-tree">
               <h5 className="text-[22px] text-[#668D86] mt-2 block w-fit-content">
                 Design
@@ -183,11 +186,11 @@ function InCover({}: Props) {
             </div>
           </div>
 
-          <div className="flex drop-shadow-md">
+          <div className="flex drop-shadow-md  md:p-0 p-5">
             <h3 className="text-[48px] mt-16">Toolbox &nbsp;</h3>
             <span className="flex-grow border-b border-black mb-8"></span>
           </div>
-          <div className="flex gap-10">
+          <div className="flex gap-10  md:p-0 p-5 overflow-scroll">
             <div className="flex flex-col items-center">
               <div className="w-[35px] h-[35px] rounded-md bg-[#B8C6C2]"></div>
               <h5 className="text-[16px] text-[#668D86] mt-2">Adobe</h5>
@@ -228,7 +231,7 @@ function InCover({}: Props) {
         </div>
       </section>
 
-      <section className="w-[50%] min-h-screen relative bg-[#F7F7F9] h-fit">
+      <section className="hidden md:block md:w-[50%] min-h-screen relative bg-[#F7F7F9] h-fit">
         <img
           src="/assets/incover.png"
           alt="in-cover"

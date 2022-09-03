@@ -1,14 +1,12 @@
-import React from "react";
 import LayoutNavbar from "../navbar/LayoutNavbar";
 import DesignElement, { IDesignElement } from "../projects/DesignElement";
 import WebDesignIdea, { ITab } from "../projects/WebDesignIdea";
-import FirstPageImageCover from "../projects/FirstPageImageCover";
 import FirstCoverDescriptionFuture from "../projects/FutureProject/FirstCoverDescriptionFuture";
 import NextProjects, { INextProduct } from "../projects/NextProjects";
 import ProjectGoals from "../projects/ProjectGoals";
 import ProjectComps from "../projects/ProjectComps";
-import SingleCover from "../projects/SingleCover";
 import MobileIdea from "../projects/MobileIdea";
+import SoloFirstPageImage from "../projects/SoloFirstPageImage";
 
 type Props = {};
 
@@ -64,7 +62,7 @@ function Booking({}: Props) {
   return (
     <LayoutNavbar>
       <div className="container  max-w-full custom-container overflow-hidden">
-        <SingleCover cover={"/assets/daruma-cover.png"}/>
+        <SoloFirstPageImage image={"/assets/daruma-cover.png"}/>
         <FirstCoverDescriptionFuture />
         <ProjectGoals />
         <DesignElement designElements={designElements} />

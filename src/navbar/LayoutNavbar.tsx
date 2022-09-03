@@ -45,9 +45,11 @@ function LayoutNavbar({ children }: Props) {
       </div>
       <div
         className={`z-50 sm:h-14 fixed md:hidden flex w-full justify-between ease-linear	`}
-        style={{backgroundColor: navbarOpen ? "#B8C6C2" : "#fff"}}
+        style={{ backgroundColor: navbarOpen ? "#B8C6C2" : "#fff" }}
       >
-        <button className={`w-24 h-24 rounded-full bg-white -mt-10 pt-7 ease-linear	`}>
+        <button
+          className={`w-24 h-24 rounded-full bg-white -mt-10 pt-7 ease-linear	`}
+        >
           <span className="text-[#668D86]">Amita</span>
         </button>
         <div
@@ -65,7 +67,7 @@ function LayoutNavbar({ children }: Props) {
         }`}
         id="navbar"
       >
-        <ul className="mx-auto h-full flex flex-col p-4 mt-4 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <ul className="mx-auto h-full flex flex-col mt-4 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
           <li className="mt-auto">
             <div className="text-[#668D86] text-[28px] text-center">Menu</div>
           </li>
@@ -94,6 +96,9 @@ function LayoutNavbar({ children }: Props) {
               Projects
             </NavLink>
           </li>
+          <div className="h-28 w-full text-center bg-[#668D86] cursor-pointer">
+            <span className="text-[36px] text-white block mt-5">Hire Me!</span>
+          </div>
         </ul>
       </nav>
 

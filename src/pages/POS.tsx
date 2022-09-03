@@ -1,12 +1,9 @@
 import LayoutNavbar from "../navbar/LayoutNavbar";
 import DesignElement, { IDesignElement } from "../projects/DesignElement";
 import WebDesignIdea, { ITab } from "../projects/WebDesignIdea";
-import FirstPageImageCover from "../projects/FirstPageImageCover";
 import FirstCoverDescriptionFuture from "../projects/FutureProject/FirstCoverDescriptionFuture";
 import NextProjects, { INextProduct } from "../projects/NextProjects";
 import ProjectGoals from "../projects/ProjectGoals";
-import ProjectComps from "../projects/ProjectComps";
-import SingleCover from "../projects/SingleCover";
 import SoloFirstPageImage from "../projects/SoloFirstPageImage";
 
 type Props = {};
