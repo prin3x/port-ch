@@ -7,6 +7,7 @@ import FirstCoverDescriptionFuture from "../projects/FutureProject/FirstCoverDes
 import NextProjects, { INextProduct } from "../projects/NextProjects";
 import ProjectGoals from "../projects/ProjectGoals";
 import ProjectComps from "../projects/ProjectComps";
+import SoloFirstPageImage from "../projects/SoloFirstPageImage";
 
 type Props = {};
 
@@ -77,8 +78,8 @@ function Bingo({}: Props) {
 
   return (
     <LayoutNavbar>
-      <div className="container max-w-full custom-container overflow-hidden">
-        <FirstPageImageCover {...firstPageCoverImage} />
+      <div className="container max-w-full custom-container overflow-hidden mt-14 sm:mt-0">
+        <SoloFirstPageImage image="/assets/cover-bingo.png" />
         <FirstCoverDescriptionFuture />
         <ProjectGoals />
         <DesignElement designElements={designElements} />

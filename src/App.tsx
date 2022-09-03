@@ -10,6 +10,7 @@ import FourKing from "./pages/FourKing";
 import Future from "./pages/Future";
 import GameFi from "./pages/GameFi";
 import Home from "./pages/Home";
+import Neramit from "./pages/Neramit";
 import POS from "./pages/POS";
 import Projects from "./pages/Projects";
 import Salebox from "./pages/Salebox";
@@ -33,6 +34,7 @@ function App() {
       <Route path="projects/4king" element={<FourKing />} />
       <Route path="projects/pos" element={<POS />} />
       <Route path="projects/charity" element={<Charity />} />
+      <Route path="projects/neramit" element={<Neramit />} />
     </Routes>
   );
 }

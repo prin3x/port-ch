@@ -16,7 +16,7 @@ function ProjectList({}: Props) {
       </div>
       <ul className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <Link to="/projects/exchange">
-          <li className="flex flex-col bg-[#E9EBEC] w-[401px]">
+          <li className="flex flex-col bg-[#E9EBEC]  w-full md:w-[401px]">
             <img src="/assets/exchange-sm.png" alt="" />
             <div className="w-full p-6">
               <p className="text-[#8C8C8C] text-sm">
@@ -29,7 +29,7 @@ function ProjectList({}: Props) {
           </li>
         </Link>
         <Link to="/projects/future">
-          <li className="flex flex-col bg-[#E9EBEC] w-[401px]">
+          <li className="flex flex-col bg-[#E9EBEC]  w-full md:w-[401px]">
             <img src="/assets/future-sm.png" alt="" />
             <div className="w-full p-6">
               <p className="text-[#8C8C8C] text-sm">
@@ -41,8 +41,8 @@ function ProjectList({}: Props) {
             </div>
           </li>
         </Link>
-        <Link to="/projects/exchange">
-          <li className="flex flex-col bg-[#E9EBEC] w-[401px]">
+        <Link to="/projects/binary">
+          <li className="flex flex-col bg-[#E9EBEC]  w-full md:w-[401px]">
             <img src="/assets/binary-sm.png" alt="" />
             <div className="w-full p-6">
               <p className="text-[#8C8C8C] text-sm">
@@ -55,7 +55,7 @@ function ProjectList({}: Props) {
           </li>
         </Link>
         <Link to="/projects/defi">
-          <li className="flex flex-col bg-[#E9EBEC] w-[401px]">
+          <li className="flex flex-col bg-[#E9EBEC]  w-full md:w-[401px]">
             <img src="/assets/defi-sm.png" alt="" />
             <div className="w-full p-6">
               <p className="text-[#8C8C8C] text-sm">
@@ -67,8 +67,8 @@ function ProjectList({}: Props) {
             </div>
           </li>
         </Link>
-        <Link to="/projects/exchange">
-          <li className="flex flex-col bg-[#E9EBEC] w-[401px]">
+        <Link to="/projects/game-fi">
+          <li className="flex flex-col bg-[#E9EBEC]  w-full md:w-[401px]">
             <img src="/assets/game-fi-sm.png" alt="" />
             <div className="w-full p-6">
               <p className="text-[#8C8C8C] text-sm">
@@ -80,8 +80,8 @@ function ProjectList({}: Props) {
             </div>
           </li>
         </Link>
-        <Link to="/projects/exchange">
-          <li className="flex flex-col bg-[#E9EBEC] w-[401px]">
+        <Link to="/projects/bingo">
+          <li className="flex flex-col bg-[#E9EBEC]  w-full md:w-[401px]">
             <img src="/assets/bingo-sm.png" alt="" />
             <div className="w-full p-6">
               <p className="text-[#8C8C8C] text-sm">
@@ -100,8 +100,8 @@ function ProjectList({}: Props) {
         <span className="flex-grow border-b border-black mb-4"></span>
       </div>
       <ul className="grid grid-cols-1 xl:grid-cols-3 gap-6">
-        <Link to="/projects/exchange">
-          <li className="flex flex-col bg-[#E9EBEC] w-[401px]">
+        <Link to="/projects/booking">
+          <li className="flex flex-col bg-[#E9EBEC]  w-full md:w-[401px]">
             <img src="/assets/booking-sm.png" alt="" />
             <div className="w-full p-6">
               <p className="text-[#8C8C8C] text-sm">
@@ -113,8 +113,8 @@ function ProjectList({}: Props) {
             </div>
           </li>
         </Link>
-        <Link to="/projects/exchange">
-          <li className="flex flex-col bg-[#E9EBEC] w-[401px]">
+        <Link to="/projects/pos">
+          <li className="flex flex-col bg-[#E9EBEC]  w-full md:w-[401px]">
             <img src="/assets/pos-sm.png" alt="" />
             <div className="w-full p-6">
               <p className="text-[#8C8C8C] text-sm">
@@ -126,8 +126,8 @@ function ProjectList({}: Props) {
             </div>
           </li>
         </Link>
-        <Link to="/projects/exchange">
-          <li className="flex flex-col bg-[#E9EBEC] w-[401px]">
+        <Link to="/projects/salebox">
+          <li className="flex flex-col bg-[#E9EBEC]  w-full md:w-[401px]">
             <img src="/assets/salebox-sm.png" alt="" />
             <div className="w-full p-6">
               <p className="text-[#8C8C8C] text-sm">
@@ -146,8 +146,8 @@ function ProjectList({}: Props) {
         <span className="flex-grow border-b border-black mb-4"></span>
       </div>
       <ul className="grid grid-cols-1 xl:grid-cols-3 gap-6">
-        <Link to="/projects/exchange">
-          <li className="flex flex-col bg-[#E9EBEC] w-[401px]">
+        <Link to="/projects/4king">
+          <li className="flex flex-col bg-[#E9EBEC]  w-full md:w-[401px]">
             <img src="/assets/4king-sm.png" alt="" />
             <div className="w-full p-6">
               <p className="text-[#8C8C8C] text-sm">
@@ -159,8 +159,8 @@ function ProjectList({}: Props) {
             </div>
           </li>
         </Link>
-        <Link to="/projects/exchange">
-          <li className="flex flex-col bg-[#E9EBEC] w-[401px]">
+        <Link to="/projects/wallet">
+          <li className="flex flex-col bg-[#E9EBEC]  w-full md:w-[401px]">
             <img src="/assets/wallet-sm.png" alt="" />
             <div className="w-full p-6">
               <p className="text-[#8C8C8C] text-sm">
@@ -172,8 +172,8 @@ function ProjectList({}: Props) {
             </div>
           </li>
         </Link>
-        <Link to="/projects/exchange">
-          <li className="flex flex-col bg-[#E9EBEC] w-[401px]">
+        <Link to="/projects/neramit">
+          <li className="flex flex-col bg-[#E9EBEC]  w-full md:w-[401px]">
             <img src="/assets/neramit-sm.png" alt="" />
             <div className="w-full p-6">
               <p className="text-[#8C8C8C] text-sm">
@@ -186,7 +186,7 @@ function ProjectList({}: Props) {
           </li>
         </Link>
         <Link to="/projects/exchange">
-          <li className="flex flex-col bg-[#E9EBEC] w-[401px]">
+          <li className="flex flex-col bg-[#E9EBEC]  w-full md:w-[401px]">
             <img src="/assets/charity-sm.png" alt="" />
             <div className="w-full p-6">
               <p className="text-[#8C8C8C] text-sm">

@@ -1,94 +1,57 @@
 import React from "react";
 import LayoutNavbar from "../navbar/LayoutNavbar";
 import DesignElement, { IDesignElement } from "../projects/DesignElement";
-import WebDesignIdea, { ITab } from "../projects/WebDesignIdea";
-import FirstPageImageCover from "../projects/FirstPageImageCover";
 import FirstCoverDescriptionFuture from "../projects/FutureProject/FirstCoverDescriptionFuture";
 import NextProjects, { INextProduct } from "../projects/NextProjects";
 import ProjectGoals from "../projects/ProjectGoals";
-import ProjectComps from "../projects/ProjectComps";
 import SoloFirstPageImage from "../projects/SoloFirstPageImage";
+import WebDesignIdea, { ITab } from "../projects/WebDesignIdea";
 
 type Props = {};
 
-function Defi({}: Props) {
-  const firstPageCoverImage = {
-    left: "/assets/ACT_Head-Picture-2.png",
-    middle: "/assets/ACT_Head-Picture-1.png",
-    right: "/assets/ACT_Head-Picture-3.png",
-  };
-
+function Neramit({}: Props) {
   const designElements: IDesignElement[] = [
     {
-      image: "/assets/ACT_Color-Palate.png",
+      image: "/assets/NERAMIT_Color-Palate_2.png",
       description:
         "เน้นใช้สี Illuminating yellow และ Ultimate gray เป็น pimary color ตาม ci ให้สอดคล้องกับ logo ของบริษัท ใช้สีเทาไล่เฉดที่เข้มขึ้นเป็น secondary color เพื่อให้ mood&tone สบายตาใช้งานง่าย เหมาะกับ white mode และ dark mode",
     },
     {
-      image: "/assets/ACT_Font.png",
+      image: "/assets/NERAMIT_Font.png",
       description:
         "เน้นใช้สี Illuminating yellow และ Ultimate gray เป็น pimary color ตาม ci ให้สอดคล้องกับ logo ของบริษัท ใช้สีเทาไล่เฉดที่เข้มขึ้นเป็น secondary color เพื่อให้ mood&tone สบายตาใช้งานง่าย เหมาะกับ white mode และ dark mode",
-    },
-    {
-      image: "/assets/act-logo.png",
-      description:
-        " ออกแบบ Loading โดยเน้นการเคลื่อนไหวแบบมีเส้นสายนำสายตาให้มีความสอดคล้องกับ Logo และ Interior ของออฟฟิศ",
     },
   ];
-
-  const imageComponent = "/assets/ACT_Components.png";
 
   const tabs: ITab[] = [
     {
       key: "1",
-      title: "Home",
-      lightImage: "/assets/act-web-01.png",
-    },
-    {
-      key: "2",
-      title: "Farm",
-      lightImage: "/assets/act-web-02.png",
-    },
-    {
-      key: "3",
-      title: "My contract",
-      lightImage: "/assets/act-web-03.png",
-    },
-    {
-      key: "4",
-      title: "Vote",
-      lightImage: "/assets/act-web-04.png",
-    },
-    {
-      key: "5",
-      title: "Auction",
-      lightImage: "/assets/act-web-05.png",
+      title: "Landing",
+      lightImage: "/assets/neramit-landing.png",
     },
   ];
 
   const nextProduct: INextProduct[] = [
     {
-      image: "/assets/binary-sm.png",
-      link: "/projects/binary",
+      image: "/assets/4king-sm.png",
+      link: "/projects/4king",
       text: "Website 3 application",
       title: "Decentralize Finance and ACT token",
     },
     {
-      image: "/assets/game-fi-sm.png",
-      link: "/projects/game-fi",
+      image: "/assets/charity-sm.png",
+      link: "/projects/charity ",
       text: "Website 3 application",
       title: "Decentralize Finance and ACT token",
     },
   ];
-
   return (
     <LayoutNavbar>
-      <div className="container max-w-full custom-container overflow-hidden mt-14">
-        <SoloFirstPageImage image='/assets/act-cover.png' />
+      <div className="container max-w-full custom-container overflow-hidden">
+        <SoloFirstPageImage image="/assets/cover-neramit.png" />
         <FirstCoverDescriptionFuture />
         <ProjectGoals />
         <DesignElement designElements={designElements} />
-        <ProjectComps imageComponent={imageComponent} />
         <WebDesignIdea tabs={tabs} />
         <NextProjects nextProduct={nextProduct} />
       </div>
@@ -96,4 +59,4 @@ function Defi({}: Props) {
   );
 }
 
-export default Defi;
+export default Neramit;

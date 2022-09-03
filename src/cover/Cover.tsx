@@ -12,25 +12,25 @@ function Cover({}: Props) {
           className="md:hidden block ml-auto"
         />
         <div className="intro-box relative -mt-64  pt-5 px-10 mx-auto block max-w-[600px] md:mt-36 text-center md:text-left">
-          <div className="md:-hidden absolute top-0 opacity-20 w-full h-56 bg-gradient-to-b to-white"></div>
-          <h1 className="z-40 text-[32px] md:text-[76px] font-semibold uppercase drop-shadow-md leading-[32px] md:leading-[76px]">
+          <div className="md:-hidden absolute top-0 opacity-20 w-auto h-56 bg-gradient-to-b to-white"></div>
+          <h1 className="z-30 text-[32px] md:text-[76px] font-semibold uppercase drop-shadow-md leading-[32px] md:leading-[76px]">
             AMITA TOMASA
           </h1>
-          <h2 className="z-40 text-[32px] md:text-[76px] font-regular drop-shadow-md  leading-[32px] md:leading-[76px]">
+          <h2 className="z-30 text-[32px] md:text-[76px] font-regular drop-shadow-md  leading-[32px] md:leading-[76px]">
             <span className="text-[#668D86]">U</span>
             X/
             <span className="text-[#668D86]">U</span>I Designer
           </h2>
-          <div className="z-40 flex">
-            <p className="z-40 text-center md:text-left mt-7">
+          <div className="z-30 flex">
+            <p className="z-30 text-center md:text-left mt-7">
               Hi! I’m a UX/UI Designer and Product manager &nbsp;
             </p>
             <span className="hidden md:block flex-grow border-b border-black mb-2"></span>
           </div>
-          <p className="z-40 text-center md:text-left mb-7">
+          <p className="z-30 text-center md:text-left mb-7">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
-          <button className="z-40 bg-[#668D86] w-[200px] h-[60px] rounded-md text-white shadow-xl text-[24px]">
+          <button className="z-30 bg-[#668D86] w-[200px] h-[60px] rounded-md text-white shadow-xl text-[24px]">
             Explore
           </button>
 

@@ -7,7 +7,7 @@ type Props = {};
 function About({}: Props) {
   return (
     <LayoutNavbar>
-      <div className="container max-w-full">
+      <div className="container  max-w-full custom-container overflow-hidden">
         <InCover />
       </div>
     </LayoutNavbar>

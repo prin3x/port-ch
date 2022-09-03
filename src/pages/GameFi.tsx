@@ -7,6 +7,7 @@ import FirstCoverDescriptionFuture from "../projects/FutureProject/FirstCoverDes
 import NextProjects, { INextProduct } from "../projects/NextProjects";
 import ProjectGoals from "../projects/ProjectGoals";
 import ProjectComps from "../projects/ProjectComps";
+import SoloFirstPageImage from "../projects/SoloFirstPageImage";
 
 type Props = {};
 
@@ -77,8 +78,8 @@ function GameFi({}: Props) {
 
   return (
     <LayoutNavbar>
-      <div className="container custom-container max-w-full">
-        <FirstPageImageCover {...firstPageCoverImage} />
+      <div className="container custom-container max-w-full mt-14 sm:mt-0">
+        <SoloFirstPageImage image="/assets/cover-game-fi.png" />
         <FirstCoverDescriptionFuture />
         <ProjectGoals />
         <DesignElement designElements={designElements} />

@@ -8,6 +8,7 @@ import NextProjects, { INextProduct } from "../projects/NextProjects";
 import ProjectGoals from "../projects/ProjectGoals";
 import ProjectComps from "../projects/ProjectComps";
 import MobileIdea from "../projects/MobileIdea";
+import SoloFirstPageImage from "../projects/SoloFirstPageImage";
 
 type Props = {};
 
@@ -100,8 +101,8 @@ function Wallet({}: Props) {
 
   return (
     <LayoutNavbar>
-      <div className="container max-w-full custom-container overflow-hidden">
-        <FirstPageImageCover {...firstPageCoverImage} />
+      <div className="container max-w-full custom-container overflow-hidden mt-14 sm:mt-0">
+        <SoloFirstPageImage image="/assets/cover-wallet.png" />
         <FirstCoverDescriptionFuture />
         <ProjectGoals />
         <DesignElement designElements={designElements} />

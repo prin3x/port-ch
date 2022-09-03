@@ -8,6 +8,7 @@ import NextProjects, { INextProduct } from "../projects/NextProjects";
 import ProjectGoals from "../projects/ProjectGoals";
 import ProjectComps from "../projects/ProjectComps";
 import MobileIdea from "../projects/MobileIdea";
+import SoloFirstPageImage from "../projects/SoloFirstPageImage";
 
 type Props = {};
 
@@ -68,7 +69,6 @@ function Future({}: Props) {
     },
   ];
 
-
   const mobileTabs: ITab[] = [
     {
       key: "1",
@@ -96,19 +96,15 @@ function Future({}: Props) {
 
   return (
     <LayoutNavbar>
-      <div className="container  max-w-full custom-container overflow-hidden">
-        <FirstPageImageCover
-          left="/assets/1000X_Head-Picture-2.png"
-          middle="/assets/1000X_Head-Picture-3.png"
-          right="/assets/1000X_Head-Picture-1.png"
-        />
+      <div className="container  max-w-full custom-container overflow-hidden mt-14 sm:mt-0">
+        <SoloFirstPageImage image="/assets/1000x-cover.png" />
         <FirstCoverDescriptionFuture />
         <ProjectGoals />
         <DesignElement designElements={designElements} />
-        <ProjectComps imageComponent={imageComponent}/>
+        <ProjectComps imageComponent={imageComponent} />
         <WebDesignIdea tabs={tabs} />
         <MobileIdea tabs={mobileTabs} />
-        <NextProjects nextProduct={nextProduct}/>
+        <NextProjects nextProduct={nextProduct} />
       </div>
     </LayoutNavbar>
   );

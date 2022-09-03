@@ -57,7 +57,7 @@ function VersionWindowSlide({}: Props) {
           <img
             src="/assets/Exchange_Landing_v1.png"
             alt=""
-            className="h-[600px] w-[WIDTH_CONSTANTSpx] z-40 absolute"
+            className="h-[600px] w-[WIDTH_CONSTANTSpx] z-30 absolute"
             style={{ width: `${WIDTH_CONSTANTS}px` }}
           />
           <img
@@ -71,13 +71,13 @@ function VersionWindowSlide({}: Props) {
               }% 100%, 100% 100%, 100% 0%)`,
             }}
             alt=""
-            className={`ex-clip h-[600px] w-[${WIDTH_CONSTANTS}px] z-40 absolute`}
+            className={`ex-clip h-[600px] w-[${WIDTH_CONSTANTS}px] z-30 absolute`}
             ref={handlerRef}
           />
           <img
             src="/assets/Handle_Icon.png"
             alt=""
-            className="z-40 absolute top-[40%] w-10 cursor-pointer"
+            className="z-30 absolute top-[40%] w-10 cursor-pointer"
             style={{
               transform: `translateX(${
                 initSlide ? WIDTH_CONSTANTS / 2 - 20 : mousePosX - 20
