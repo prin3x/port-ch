@@ -90,8 +90,8 @@ function Wallet({}: Props) {
       title: "Decentralize Finance and ACT token",
     },
     {
-      image: "/assets/salebox-sm.png",
-      link: "/projects/salebox",
+      image: "/assets/neramit-sm.png",
+      link: "/projects/neramit",
       text: "Website 3 application",
       title: "Decentralize Finance and ACT token",
     },

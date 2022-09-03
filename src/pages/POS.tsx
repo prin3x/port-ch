@@ -44,8 +44,8 @@ function POS({}: Props) {
       title: "Decentralize Finance and ACT token",
     },
     {
-      image: "/assets/charity-sm.png",
-      link: "/projects/charity ",
+      image: "/assets/salebox-sm.png",
+      link: "/projects/salebox ",
       text: "Website 3 application",
       title: "Decentralize Finance and ACT token",
     },

@@ -44,8 +44,8 @@ function Bingo({}: Props) {
       title: "Decentralize Finance and ACT token",
     },
     {
-      image: "/assets/pos-sm.png",
-      link: "/projects/pos ",
+      image: "/assets/wallet-sm.png",
+      link: "/projects/wallet ",
       text: "Website 3 application",
       title: "Decentralize Finance and ACT token",
     },

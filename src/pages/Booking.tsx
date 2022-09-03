@@ -43,8 +43,8 @@ function Booking({}: Props) {
       title: "Decentralize Finance and ACT token",
     },
     {
-      image: "/assets/wallet-sm.png",
-      link: "/projects/wallet",
+      image: "/assets/pos-sm.png",
+      link: "/projects/pos",
       text: "Website 3 application",
       title: "Decentralize Finance and ACT token",
     },

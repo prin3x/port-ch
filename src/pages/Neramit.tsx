@@ -32,8 +32,8 @@ function Neramit({}: Props) {
 
   const nextProduct: INextProduct[] = [
     {
-      image: "/assets/4king-sm.png",
-      link: "/projects/4king",
+      image: "/assets/wallet-sm.png",
+      link: "/projects/wallet",
       text: "Website 3 application",
       title: "Decentralize Finance and ACT token",
     },

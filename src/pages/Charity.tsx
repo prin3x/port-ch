@@ -70,8 +70,8 @@ function Charity({}: Props) {
 
   const nextProduct: INextProduct[] = [
     {
-      image: "/assets/pos-sm.png",
-      link: "/projects/pos",
+      image: "/assets/neramit-sm.png",
+      link: "/projects/neramit",
       text: "Website 3 application",
       title: "Decentralize Finance and ACT token",
     },
