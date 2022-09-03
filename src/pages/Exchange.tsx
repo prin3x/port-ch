@@ -97,7 +97,7 @@ function Exchange({}: Props) {
 
   return (
     <LayoutNavbar>
-      <div className="container custom-container lg:max-w-full overflow-x-hidden">
+      <div className="container  max-w-full custom-container overflow-hidden">
         <ExchangeWindowSlide />
         <FirstPage />
         <ProjectGoals />

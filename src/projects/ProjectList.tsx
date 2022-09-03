@@ -5,7 +5,7 @@ type Props = {};
 
 function ProjectList({}: Props) {
   return (
-    <div className="px-20 pt-5">
+    <div className="px-0 md:px-20 pt-5">
       <p>My work</p>
       <div className="flex drop-shadow-md">
         <h3 className="text-[48px] font-bold uppercase">Projects &nbsp;</h3>
@@ -14,7 +14,7 @@ function ProjectList({}: Props) {
         <h3 className="text-[30px] font-bold">Blockchain &nbsp;</h3>
         <span className="flex-grow border-b border-black mb-4"></span>
       </div>
-      <ul className="grid grid-cols-2 xl:grid-cols-3 gap-6">
+      <ul className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <Link to="/projects/exchange">
           <li className="flex flex-col bg-[#E9EBEC] w-[401px]">
             <img src="/assets/exchange-sm.png" alt="" />
@@ -99,7 +99,7 @@ function ProjectList({}: Props) {
         <h3 className="text-[30px] font-bold">Restaurant &nbsp;</h3>
         <span className="flex-grow border-b border-black mb-4"></span>
       </div>
-      <ul className="grid grid-cols-2 xl:grid-cols-3 gap-6">
+      <ul className="grid grid-cols-1 xl:grid-cols-3 gap-6">
         <Link to="/projects/exchange">
           <li className="flex flex-col bg-[#E9EBEC] w-[401px]">
             <img src="/assets/booking-sm.png" alt="" />
@@ -145,7 +145,7 @@ function ProjectList({}: Props) {
         <h3 className="text-[30px] font-bold">Other &nbsp;</h3>
         <span className="flex-grow border-b border-black mb-4"></span>
       </div>
-      <ul className="grid grid-cols-2 xl:grid-cols-3 gap-6">
+      <ul className="grid grid-cols-1 xl:grid-cols-3 gap-6">
         <Link to="/projects/exchange">
           <li className="flex flex-col bg-[#E9EBEC] w-[401px]">
             <img src="/assets/4king-sm.png" alt="" />

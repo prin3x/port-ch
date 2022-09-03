@@ -11,19 +11,19 @@ const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
     breakpoint: { max: 4000, min: 3000 },
-    items: 5,
+    items: 4,
   },
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
-    items: 3,
+    items: 4,
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
-    items: 2,
+    items: 4,
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
-    items: 1.5,
+    items: 1.2,
   },
 };
 
@@ -60,7 +60,7 @@ function MobileIdea({ tabs }: Props) {
         </div>
       </div>
       <div className="mt-10 text-sm font-medium text-center text-gray-500 border-b border-gray-200 dark:text-gray-400 dark:border-gray-700">
-        <ul className="flex flex-wrap -mb-px">
+        <ul className="flex overflow-x-scroll -mb-px">
           {tabs.map((tab) => (
             <li
               onClick={() => onChangeActiveTab(tab.key)}
@@ -89,7 +89,7 @@ function MobileIdea({ tabs }: Props) {
               ".png"
             }
             alt=""
-            className="h-[555px]"
+            className="h-[555px] mr-5"
           />
           <img
             src={
@@ -98,7 +98,7 @@ function MobileIdea({ tabs }: Props) {
               ".png"
             }
             alt=""
-            className="h-[555px]"
+            className="h-[555px] mr-5"
           />
           <img
             src={
@@ -107,7 +107,7 @@ function MobileIdea({ tabs }: Props) {
               ".png"
             }
             alt=""
-            className="h-[555px]"
+            className="h-[555px] mr-5"
           />
           <img
             src={
@@ -116,7 +116,7 @@ function MobileIdea({ tabs }: Props) {
               ".png"
             }
             alt=""
-            className="h-[555px]"
+            className="h-[555px] mr-5"
           />
         </Carousel>
       {/* </div> */}

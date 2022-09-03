@@ -77,7 +77,7 @@ function GameFi({}: Props) {
 
   return (
     <LayoutNavbar>
-      <div className="container max-w-full">
+      <div className="container custom-container max-w-full">
         <FirstPageImageCover {...firstPageCoverImage} />
         <FirstCoverDescriptionFuture />
         <ProjectGoals />

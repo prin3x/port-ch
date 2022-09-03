@@ -96,7 +96,7 @@ function Future({}: Props) {
 
   return (
     <LayoutNavbar>
-      <div className="container max-w-full">
+      <div className="container  max-w-full custom-container overflow-hidden">
         <FirstPageImageCover
           left="/assets/1000X_Head-Picture-2.png"
           middle="/assets/1000X_Head-Picture-3.png"

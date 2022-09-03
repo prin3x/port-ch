@@ -63,7 +63,7 @@ function Booking({}: Props) {
 
   return (
     <LayoutNavbar>
-      <div className="container max-w-full">
+      <div className="container  max-w-full custom-container overflow-hidden">
         <SingleCover cover={"/assets/daruma-cover.png"}/>
         <FirstCoverDescriptionFuture />
         <ProjectGoals />

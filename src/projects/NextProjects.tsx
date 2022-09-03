@@ -29,7 +29,7 @@ function NextProjects({ nextProduct }: Props) {
     <div className='flex justify-center md:justify-between mt-4'>
       {nextProduct.map((product, index) => (
         <Link to={product.link} key={product.link}>
-          <li className={`flex flex-col bg-[#E9EBEC] w-[550px] ${index === nextProduct.length - 1 && 'hidden'}`}>
+          <li className={`md:flex flex-col bg-[#E9EBEC] w-[550px] ${index === nextProduct.length - 1 && 'hidden'}`}>
             <img src={product.image} className='w-full' alt="" />
             <div className="w-full p-6">
               <p className="text-[#8C8C8C] text-sm">

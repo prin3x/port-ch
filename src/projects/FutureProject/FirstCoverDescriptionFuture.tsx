@@ -4,9 +4,9 @@ type Props = {};
 
 function FirstCoverDescriptionFuture({}: Props) {
   return (
-    <div className="px-24 pb-24">
+    <div className="md:p-24 p-5">
       <p className="font-light  text-[16px]">BITNANCE EXCHANGE</p>
-      <div className="grid grid-cols-2 text-black gap-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 text-black gap-20">
         <div className="title flex flex-col items-start">
           <h1 className="font-bold text-[48px] leading-tight">
             Cryptocurrency exchange Buy, trade, and hold
