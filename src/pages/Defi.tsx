@@ -10,12 +10,6 @@ import SoloFirstPageImage from "../projects/SoloFirstPageImage";
 type Props = {};
 
 function Defi({}: Props) {
-  const firstPageCoverImage = {
-    left: "/assets/ACT_Head-Picture-2.png",
-    middle: "/assets/ACT_Head-Picture-1.png",
-    right: "/assets/ACT_Head-Picture-3.png",
-  };
-
   const designElements: IDesignElement[] = [
     {
       image: "/assets/ACT_Color-Palate.png",
@@ -81,7 +75,7 @@ function Defi({}: Props) {
 
   return (
     <LayoutNavbar>
-      <div className="container max-w-full custom-container overflow-hidden mt-14">
+      <div className="container max-w-full custom-container overflow-hidden   mt-14 sm:mt-0">
         <SoloFirstPageImage image='/assets/act-cover.png' />
         <FirstCoverDescriptionFuture />
         <ProjectGoals />

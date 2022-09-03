@@ -53,7 +53,7 @@ function Bingo({}: Props) {
 
   return (
     <LayoutNavbar>
-      <div className="container  max-w-full custom-container overflow-hidden">
+      <div className="container  max-w-full custom-container overflow-hidden   mt-14 sm:mt-0">
         <SoloFirstPageImage image="/assets/4king-cover.png" />
         <FirstCoverDescriptionFuture />
         <ProjectGoals />

@@ -1,20 +1,14 @@
 import LayoutNavbar from "../navbar/LayoutNavbar";
 import DesignElement, { IDesignElement } from "../projects/DesignElement";
 import WebDesignIdea, { ITab } from "../projects/WebDesignIdea";
-import FirstPageImageCover from "../projects/FirstPageImageCover";
 import FirstCoverDescriptionFuture from "../projects/FutureProject/FirstCoverDescriptionFuture";
 import NextProjects, { INextProduct } from "../projects/NextProjects";
 import ProjectGoals from "../projects/ProjectGoals";
+import SoloFirstPageImage from "../projects/SoloFirstPageImage";
 
 type Props = {};
 
 function Bingo({}: Props) {
-  const firstPageCoverImage = {
-    left: "/assets/SALEBOX_Head-Picture-2.png",
-    middle: "/assets/SALEBOX_Head-Picture-1.png",
-    right: "/assets/SALEBOX_Head-Picture-3.png",
-  };
-
   const designElements: IDesignElement[] = [
     {
       image: "/assets/SALEBOX_Color-Palate.png",
@@ -63,8 +57,8 @@ function Bingo({}: Props) {
 
   return (
     <LayoutNavbar>
-      <div className="container max-w-full custom-container overflow-hidden">
-        <FirstPageImageCover {...firstPageCoverImage} />
+      <div className="container max-w-full custom-container overflow-hidden  mt-14 sm:mt-0">
+        <SoloFirstPageImage image="/assets/cover-salebox.png"/>
         <FirstCoverDescriptionFuture />
         <ProjectGoals />
         <DesignElement designElements={designElements} />
