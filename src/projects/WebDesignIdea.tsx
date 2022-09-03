@@ -16,8 +16,8 @@ function WebDesignIdea({tabs}: Props) {
     setActiveTab(key);
   };
   return (
-    <div className="p-24">
-      <div className="flex items-center">
+    <div className="p-5 md:p-24">
+      <div className="flex flex-col md:flex-row md:items-center">
         <div className="flex flex-col flex-2">
           <p className="font-light  text-[16px]">DESIGN ideas</p>
           <h2 className="font-bold text-[36px] leading-tight ">
@@ -25,7 +25,7 @@ function WebDesignIdea({tabs}: Props) {
           </h2>
         </div>
         <div className="flex flex-col flex-1 ">
-          <p className="ml-20 text-[16px]">
+          <p className="md:ml-20 text-[16px]">
             การออกแบบในแต่ละหน้าของ Exchange ต้องใช้ความละเอียดรอบคอบ
             ทุกอย่างมีที่มาที่ไป สีที่นำมาใช้ต้องสื่อความหมายอย่างชัดเจน
             ตัวเลขที่นำมาแสดงคืออะไร คำนวณจากไหน
@@ -33,7 +33,7 @@ function WebDesignIdea({tabs}: Props) {
             หากในกณีที่ระบบดำเนินการไม่สำเร็จจะแสดงให้ผู้ใช้
             รู้ว่าเพราะอะไรและควรทำอย่างไรต่อไป
           </p>
-          <p className="flex-1 ml-20 text-[16px] mt-5">
+          <p className="flex-1 md:ml-20 text-[16px] mt-5">
             ออกแบบ by Pixcel Pading&Margin ต้องเท่ากัน Components
             มีมาตราฐานไปในทางเดียวกัน สามารถนำมาใช้ได้ซ้ำ เพื่อลดภาระในขั้นตอน
             การพัฒนา Code

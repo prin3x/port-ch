@@ -14,9 +14,9 @@ type Props = {
 
 function NextProjects({ nextProduct }: Props) {
   return (
-      <div className="p-24">
+      <div className="p-5 md:p-24">
           <div className="flex justify-between">
-              <div className="flex">
+              <div className="hidden md:flex">
                   <img src="/assets/left-arrows.png" className="w-6" alt="" />
                   <p className="font-bold ml-3">Previous project</p>
               </div>
@@ -26,10 +26,10 @@ function NextProjects({ nextProduct }: Props) {
                   <img src="/assets/right-arrows.png" className="w-6" alt="" />
               </div>
           </div>
-    <div className='flex justify-between mt-4'>
-      {nextProduct.map((product) => (
+    <div className='flex justify-center md:justify-between mt-4'>
+      {nextProduct.map((product, index) => (
         <Link to={product.link} key={product.link}>
-          <li className="flex flex-col bg-[#E9EBEC] w-[550px]">
+          <li className={`flex flex-col bg-[#E9EBEC] w-[550px] ${index === nextProduct.length - 1 && 'hidden'}`}>
             <img src={product.image} className='w-full' alt="" />
             <div className="w-full p-6">
               <p className="text-[#8C8C8C] text-sm">

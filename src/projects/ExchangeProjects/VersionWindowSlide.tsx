@@ -28,12 +28,12 @@ function VersionWindowSlide({}: Props) {
   };
 
   return (
-    <div className="p-24">
-      <div className="flex items-center">
+    <div className="p-5 md:p-24">
+      <div className="flex md:flex-row flex-col items-center">
         <h2 className="font-bold text-[48px] leading-tight flex-2">
           Version 1.0 & 2.0
         </h2>
-        <p className="flex-1 ml-20 text-[16px]">
+        <p className="flex-1 md:ml-20 text-[16px]">
           Version 2.0 ปรับเปลี่ยนการออกแบบ UI ให้ทันสมันขึ้น เพิ่ม Dark
           Modegเข้ามา เน้นใช้ไอคอนและรูปภาพ 3D สร้างมิติให้กับแพลตฟอร์ม
           เนื่องจาก Primary Color ของเว็บไซต์คือสีขาวและเหลืองทำให้ขาด Mood&Tone

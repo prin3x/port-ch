@@ -5,8 +5,8 @@ type Props = {};
 function ProjectGoals({}: Props) {
   return (
     <div className="bg-[#E9EBEC]">
-      <div className="p-24">
-        <div className="grid grid-cols-2">
+      <div className="p-5 md:p-24">
+        <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="project-goal max-w-[639px]">
             <p className="font-light text-[16px]">BITNANCE EXCHANGE</p>
             <h2 className="font-bold text-[48px] leading-tight">

@@ -4,9 +4,9 @@ type Props = {};
 
 function FirstPage({}: Props) {
   return (
-    <div className="px-24">
+    <div className="p-5 md:px-24">
       <p className="font-light  text-[16px]">BITNANCE EXCHANGE</p>
-      <div className="grid grid-cols-2 text-black gap-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 text-black gap-20">
         <div className="title flex flex-col items-start">
           <h1 className="font-bold text-[48px] leading-tight">
             Cryptocurrency exchange Buy, trade, and hold
@@ -17,7 +17,7 @@ function FirstPage({}: Props) {
             การเทรดอนุพันธ์ มาปรับใช้งานให้เหมาะสมกับลักษณะการใช้งานของคนไทย
           </p>
         </div>
-        <div className="grid grid-cols-2 mx-auto gap-10">
+        <div className="w-full grid grid-cols-2 mx-auto gap-10">
           <div className="details ">
             <div className="flex flex-col">
               <h3 className="font-bold leading-10 block text-[24px]">Client</h3>
